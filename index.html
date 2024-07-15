@@ -1,0 +1,49 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+            <button id="prev" class="control-btn"><img src="https://img.icons8.com/ios-glyphs/30/000000/rewind.png"/></button>
+            <button id="play" class="control-btn"><img src="https://img.icons8.com/ios-filled/50/000000/play.png"/></button>
+            <button id="pause" class="control-btn"><img src="https://img.icons8.com/ios-filled/50/000000/pause.png"/></button>
+            <button id="stop" class="control-btn"><img src="https://img.icons8.com/ios-filled/50/000000/stop.png"/></button>
+            <button id="next" class="control-btn"><img src="https://img.icons8.com/ios-glyphs/30/000000/fast-forward.png"/></button>
+            <button id="speed" class="control-btn">1x</button>
+        </div>
+        <div class="player">
+            <div id="now-playing">Now playing: None</div>
+            <audio id="audio-player" controls>
+                Your browser does not support the audio element.
+            </audio>
+            <ul id="playlist">
+               <li data-src="https://raw.githubusercontent.com/ad1tyasharmaa/music/main/everybodyruleworld.mp3">Everybody wants to Rule the World</li>
+                <li data-src="https://raw.githubusercontent.com/ad1tyasharmaa/music/main/softcore.mp3">softcore</li>
+                <li data-src="https://raw.githubusercontent.com/ad1tyasharmaa/music/main/lessiknow.mp3">The less I know the better</li>
+                <li data-src="https://raw.githubusercontent.com/ad1tyasharmaa/music/main/nightwemet.mp3">The Night we Met</li>
+                <li data-src="https://raw.githubusercontent.com/ad1tyasharmaa/music/main/stayinalive">Stayin Alive</li>
+                <li data-src="https://raw.githubusercontent.com/ad1tyasharmaa/music/main/smoothcr.mp3">Smooth Criminal</li>
+                <li data-src="https://raw.githubusercontent.com/ad1tyasharmaa/music/main/istheresomeoneelse.mp3">Is there Someone Else</li>
+                <li data-src="https://raw.githubusercontent.com/ad1tyasharmaa/music/main/morethanawoman.mp3">More than A woman</li>
+                <li data-src="https://raw.githubusercontent.com/ad1tyasharmaa/music/main/Slay3r.mp3">Slay3r</li>
+                <li data-src="https://raw.githubusercontent.com/ad1tyasharmaa/music/main/neonguts.mp3">Neon Guts</li>
+                <li data-src="https://raw.githubusercontent.com/ad1tyasharmaa/music/main/everything%20i%20got.mp3">Everything i got</li>
+                <li data-src="https://raw.githubusercontent.com/ad1tyasharmaa/music/main/nervous.mp3">Nervous</li>
+                <li data-src="https://raw.githubusercontent.com/ad1tyasharmaa/music/main/Sky.mp3">Sky</li>
+                <li data-src="https://raw.githubusercontent.com/ad1tyasharmaa/music/main/wasneverthere.mp3">I was Never there</li>
+                <li data-src="https://raw.githubusercontent.com/ad1tyasharmaa/music/main/toomanynights.mp3">Too Many Nights</li>
+                <li data-src="https://raw.githubusercontent.com/ad1tyasharmaa/music/main/getittogether.mp3">Get It Together</li>
+                <li data-src="https://raw.githubusercontent.com/ad1tyasharmaa/music/main/ILoveUIHateU.mp3">ILoveUIHateU</li>
+                <li data-src="https://raw.githubusercontent.com/ad1tyasharmaa/music/main/Beautiful%20Life.mp3">Beautiful life</li>
+                <li data-src="https://raw.githubusercontent.com/ad1tyasharmaa/music/main/The%20Color%20Violet.mp3">The color Violet</li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
